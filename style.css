@@ -8,7 +8,7 @@ body {
   padding-bottom: 32px;
 }
 p {
-    margin-bottom: 12 px;
+    margin-bottom: 12px;
 }
 h1 h2 h3{
     font-weight: 400;
@@ -35,4 +35,21 @@ h3{
 }
 #footer p{
     font-weight: bold;
+}
+#photo {
+  max-width: inherit;
+}
+#header-main {
+  display: inline;
+  max-width: 40%;
+}
+#main {
+  padding-right: 10px;
+}
+#photo {
+  display: inline;
+  max-width: 40%;
+  float: right;
+  max-height: inherit;
+  border-radius: 15px;
 }
