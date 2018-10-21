@@ -45,9 +45,6 @@ nav {
 #footer p{
     font-weight: bold;
 }
-#photo {
-  max-width: inherit;
-}
 #header-main {
   display: inline;
   max-width: 40%;
@@ -55,4 +52,21 @@ nav {
 #main {
   padding-right: 10px;
 }
-
+#about {
+  display: inline-block;
+  width: 50%;
+  text-align: justify;
+}
+#skills {
+  vertical-align: top;
+  display: inline-block;
+  width: 40%;
+  margin-right: 0;
+  margin-left: auto;
+}
+#skills img {
+  display: inline-block;
+  max-height: 20px;
+  max-width: 20px;
+  margin-left: 5px;
+}
